@@ -1,6 +1,10 @@
 # s3-test
 terraform s3 file upload
 
+**Porpose:**
+
+This script should create an s3 bucket and add 2 file objects to it: test1.txt and test2.txt which should content the file creation timestamp at terraform run
+
 **Assumptions:**
 
 You have awscli already downloaded and configured under `~/.aws/credentials` and `~/.aws/config`
